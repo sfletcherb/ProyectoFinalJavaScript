@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contamos con cobertura nacional incluyendo las principales ciudades del pais como Bogota, Cali, Medellin, Cartagena, Bucaramanga, Ibague. Pide tus domicilios de farmacia y drogueria de manera rapida y segura.">
+    <meta name="keywords"
+        content="medicamento, drogueria, farmacia, alergias, dolor de garganta, gastritis, gripa, infecciones, salud y medicamentos, cuidado personal, cuidado del bebé, cosméticos, alivio del dolor, salud digestiva, vitaminas, nutrición, vida saludable, dermatológicos, dolor general, higiene del bebé, dermocosmética, cuidado de la piel, droguerias Bogotá">
+    <title>RedFarma.co | cotiza y ahorra en salud</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+
+        <!--Header Top  -->
+        <div class="header__top">
+            <div>
+                <select class="select">
+                    <option>Colombia</option>
+                    <option>Bogotá D.C</option>
+                    <option>Medellín</option>
+                    <option>Cali</option>
+                </select>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=573002769134" target="_blank"><i
+                    class='bx bxl-whatsapp header__top__style'></i></a>
+            <p class="header__top__style ">Domicilios 300 2769434</p>
+
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid justify-content-between">
+
+                <!--Header Left  -->
+
+                <div class="d-flex">
+
+                    <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="../index.html">
+                        <img src="../img/logo.png" height="100" alt="RedFarma" loading="lazy" style="margin-top: 2px;" />
+                    </a>
+
+
+                    <form class="input-group w-auto my-auto d-sm-flex">
+                        <input autocomplete="off" type="search" class="form-control rounded navbar-input"
+                            placeholder="Buscar" style="min-width: 50px;" />
+                        <span class="input-group-text border-0 d-lg-flex  nav__icon nav-item"><i
+                                class='bx bx-search-alt-2'></i></span>
+                    </form>
+                </div>
+
+
+                <!--Header center-->
+
+                <div class="d-flex nav__menu-main">
+
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class='bx bx-menu menu-icon'></i>
+                    </label>
+
+                </div>
+
+
+
+                <!--Header right-->
+                <ul class="navbar-nav flex-row d-sm-flex align-items-center">
+                    <li class="nav-item me-3 me-lg-1 ">
+
+                        <a class="text-reset me-3 " href="#">
+                            <i class='bx bxs-cart-add nav__icon1'></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item me-3 me-lg-1 ">
+                        <a class="text-reset me-3 " href="#">
+                            <i class='bx bxs-user-circle nav__icon1'></i>
+                        </a>
+
+                    </li>
+
+
+                </ul>
+
+
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container main__title">
+            <h1 class="text-center">Orden de Pedido #001</h1>
+            <p class="text-wrap">Diligencia los siguientes datos personales para poder informar a tu droguería más cercana los datos de tu domicilio y expedir la factura respectiva.</p>
+            <p class="text-sm-end"><strong>Fecha: </strong>04-04-2022</p>
+        </div>
+
+        <div class="container main_form">
+
+            <div class="linea"></div>
+            <div>
+                <h2 >Detalles de facturación</h2>
+            </div>
+            
+            <form class="row g-3">
+                <div class="col-md-2">
+                    <label for="inputTypeId" class="form-label">Tipo de ID</label>
+                    <select id="inputTypeId" class="form-select">
+                        <option>CC</option>
+                        <option>NIT</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputId" class="form-label">No.Identificación</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="">
+                </div>
+                <div class="col-md-5">
+                    <label for="inputName" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputDate" class="form-label">Fecha de nacimiento</label>
+                    <input type="text" class="form-control" id="inputDate" >
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputDpto" class="form-label">Departamento</label>
+                    <select id="inputDpto" class="form-select">
+                        <option></option>
+                        <option>Bogotá DC</option>
+                        <option>Valle</option>
+                        <option>Antioquia</option>
+                        <option>Santander</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <select id="inputCity" class="form-select">
+                        <option></option>
+                        <option>Bogotá DC</option>
+                        <option>Medellín</option>
+                        <option>Cali</option>
+
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputBarrio" class="form-label">Barrio</label>
+                    <input type="text" class="form-control" id="inputBarrio" placeholder="">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputPhone" class="form-label">Teléfono</label>
+                    <input type="password" class="form-control" id="inputPhone">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputMobile" class="form-label">Celular</label>
+                    <input type="text" class="form-control" id="inputMobile" placeholder="">
+                </div>
+                
+                
+                
+            </form>
+
+        </div>
+
+
+
+        <div class="col-sm container">
+
+            <div class="linea"></div>
+                
+            <div class="table-responsive format__table" id="tables">
+                
+            </div>
+            <div class="col-12 ">
+                <div class="form-check ">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label main__sizeFont" for="gridCheck">
+                        He leído y acepto las políticas y tratamiento de datos personales.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 text-center format__table ">
+                <button type="submit" class=" align-items-center main__btn2">Enviar</button>
+            </div>
+
+        </div>
+        <div class="container main__title main__sizeFont">
+            <p><strong>Advertencia:</strong> Apreciado cliente, recuerde que la formula médica es requisito obligatorio para la venta y/o entrega de medicamentos que requieran prescripción médica según el artículo 19 decreto 2200 del año 2005, sin copia de este documento el mensajero no podrá hacerle entrega del medicamento.</p>
+        </div>
+
+
+    </main>
+
+
+    <footer class="container-fluid">
+
+        <div class="row g-3 footer__fondo">
+
+            <div class="col-sm footer__content">
+                <h3>REDFARMA.CO</h3>
+                <ul>
+                    <li>8819 Ohio St.South Gate, CA 90280</li>
+                    <li>+ 1 386-688-3295</li>
+                    <li>contacto@redfarma.co</li>
+                </ul>
+            </div>
+
+            <div class="col-sm footer__piePagina">
+                <p>RedFarma.co 2022. Todos los derechos reservados.</p>
+            </div>
+
+            <ul class="col-sm footer__redesSociales">
+                <a href="https://www.whatsapp.com/?lang=es"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://es-la.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/?hl=es-la"><i class='bx bxl-instagram'></i></a>
+            </ul>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="../js/mainOrden1.js"></script>
+    <script src="../js/mainOrden2.js"></script>
+    <script src="../js/mainOrden3.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/eventos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
